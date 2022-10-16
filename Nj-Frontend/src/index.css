@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700;900&display=swap'); */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    transition: all;
+}
+.para{
+    font-family: 'Poppins','sans-serif';
+    font-weight:200;    
+}
+
+.pattern{
+    background: url('./Components/blobz.png') ;
+    background-color: black;
+    background-size: 5px;
+    /* background-size: contain; */
+    /* background-color: black; */
+    
+}
+
+.curve{
+    border-radius: 6.5rem;
+    
+}
+p{
+    color:#b4b7bb ;
+}
+.active{
+    transition: all;
+    transform: scale(2);
+    color: yellow;
+}
+li{
+    cursor: pointer;
+    transition: all;
+
+}
+li:hover{
+    transition: all;
+    /* transform: scale(1.5); */
+    text-decoration: underline;
+
+}
